@@ -16,7 +16,7 @@ export const MobileNav = ({ routes }: MobileNavProps) => {
 		<>
 			<div
 				className={clsx(
-					'fixed z-40 flex w-full flex-col items-center justify-between p-3 backdrop-blur-lg md:hidden md:justify-around',
+					'fixed z-40 flex w-full flex-col items-center justify-between p-3 shadow backdrop-blur-lg md:hidden md:justify-around',
 					isOpen && 'h-screen',
 				)}
 			>
