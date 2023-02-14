@@ -4,12 +4,11 @@ import { DesktopNav } from 'components/nav/desktopNav';
 export type RoutesType = { url: string; label: string };
 
 const routes: RoutesType[] = [
-	{ url: '/', label: 'Strona główna' },
+	// { url: '/', label: 'Strona główna' },
 	{ url: '#', label: 'Funkcje' },
-	{ url: '#', label: 'Jak to działa?' },
-	{ url: '#', label: 'Cennik' },
-	{ url: '#', label: 'O nas' },
-	{ url: '#', label: 'Kontakt' },
+	{ url: '#cennik', label: 'Cennik' },
+	{ url: '#o-nas', label: 'O nas' },
+	{ url: '#kontakt', label: 'Kontakt' },
 ];
 export const Nav = () => {
 	return (
