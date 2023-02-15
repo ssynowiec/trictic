@@ -1,6 +1,7 @@
 import { Karla } from '@next/font/google';
 import clsx from 'clsx';
 import { Button } from 'components/button/button';
+import { Link } from 'components/link/link';
 
 const karla = Karla({ weight: ['800'], subsets: ['latin'] });
 
@@ -28,7 +29,8 @@ export const Hero = () => {
 						data-aos-delay="150"
 					>
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum
-						odio, consequuntur, voluptatum doloremque, voluptatem.
+						odio, consequuntur, <Link href="/" label="doloremque" />,
+						voluptatem.
 					</p>
 					<div
 						className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center"

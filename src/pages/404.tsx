@@ -3,6 +3,7 @@ import { MainLayout } from 'components/layouts/mainLayout';
 import clsx from 'clsx';
 import { Button } from 'components/button/button';
 import { Karla } from '@next/font/google';
+import { Link } from 'components/link/link';
 
 const karla = Karla({ weight: ['800'], subsets: ['latin'] });
 const Error404: NextPageWithLayout = () => {
@@ -36,7 +37,8 @@ const Error404: NextPageWithLayout = () => {
 						data-aos="zoom-y-out"
 						data-aos-delay="300"
 					>
-						<Button>Wróć na stronę główną</Button>
+						<Link href="/" label="Wróć na stronę główną" style="block" />
+						{/*<Button>Wróć na stronę główną</Button>*/}
 						{/*<Button style="outline">Second Button</Button>*/}
 					</div>
 				</div>
