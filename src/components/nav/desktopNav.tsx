@@ -11,7 +11,7 @@ type DesktopNavProps = {
 };
 export const DesktopNav = ({ routes }: DesktopNavProps) => {
 	return (
-		<div className="fixed hidden w-full items-center justify-between shadow backdrop-blur-lg md:flex md:justify-around">
+		<div className="fixed z-40 hidden w-full items-center justify-between shadow backdrop-blur-lg md:flex md:justify-around">
 			<Link href="/">
 				<VisuallyHidden>Trictic</VisuallyHidden>
 				<Image
