@@ -5,7 +5,7 @@ export type RoutesType = { url: string; label: string };
 
 const routes: RoutesType[] = [
 	// { url: '/', label: 'Strona główna' },
-	{ url: '#', label: 'Funkcje' },
+	{ url: '#funkcje', label: 'Funkcje' },
 	{ url: '#cennik', label: 'Cennik' },
 	{ url: '#o-nas', label: 'O nas' },
 	{ url: '#kontakt', label: 'Kontakt' },
