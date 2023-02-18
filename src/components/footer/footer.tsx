@@ -186,11 +186,17 @@ export const Footer = () => {
 				<section className="md:w-1/3">
 					<h2 className="p-5 pt-10 text-xl font-medium">Linki</h2>
 					<ul className="p-5">
-						<li>
+						<li className="p-2">
 							<Link href="/regulamin">Regulamin</Link>
 						</li>
-						<li>
+						<li className="p-2">
 							<Link href="/polityka-prywatnosci">Polityka prywatności</Link>
+						</li>
+						<li className="p-2">
+							<Link href="#">Wsparcie techniczne</Link>
+						</li>
+						<li className="p-2">
+							<Link href="#">Panel klienta</Link>
 						</li>
 					</ul>
 				</section>
