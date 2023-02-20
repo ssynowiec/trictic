@@ -2,13 +2,15 @@ import { Karla } from '@next/font/google';
 import clsx from 'clsx';
 import { Button } from 'components/button/button';
 import { Link } from 'components/link/link';
+import { Image } from 'components/image/image';
+import { HeroImg } from 'components/heroImg/heroImg';
 
 const karla = Karla({ weight: ['800'], subsets: ['latin'] });
 
 export const Hero = () => {
 	return (
-		<section className="flex min-h-screen min-w-full max-w-full items-center justify-center">
-			<div className="pb-12 text-center md:pb-16 lg:px-60">
+		<section className="relative flex min-h-screen min-w-full max-w-full items-center justify-center">
+			<div className="pb-12 text-center lg:px-60">
 				<h1
 					className={clsx(
 						'leading-tighter mb-4 text-6xl font-extrabold tracking-tighter md:text-8xl',
@@ -42,6 +44,7 @@ export const Hero = () => {
 					</div>
 				</div>
 			</div>
+			<HeroImg />
 		</section>
 	);
 };

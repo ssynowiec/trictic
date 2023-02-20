@@ -125,7 +125,7 @@ export const Functions = () => {
 	return (
 		<section
 			id="funkcje"
-			className="flex min-h-screen w-full flex-col items-center justify-center bg-gradient-to-br from-blue-500 to-red-400 py-20"
+			className="flex min-h-screen w-full flex-col items-center justify-center bg-gradient-to-br from-blue-500 to-red-400 py-20 pt-28 md:pt-96"
 		>
 			<Container>
 				<h2 className="text-center text-4xl font-bold text-white">Funkcje</h2>
