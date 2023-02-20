@@ -14,7 +14,10 @@ export const FunctionItem = ({
 	status = 'implemented',
 }: FunctionItemProps) => {
 	return (
-		<Card size="md:w-1/4" className="flex flex-col items-center justify-center">
+		<Card
+			size="w-full mx-0 md:mx-4 md:w-1/4"
+			className="flex flex-col items-center justify-center"
+		>
 			<Image src={icon} alt="" width="30" height="30" className="pb-3" />
 			<h3 className="text-center font-bold">{name}</h3>
 			<p className="text-center">{description}</p>

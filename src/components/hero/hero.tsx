@@ -24,7 +24,7 @@ export const Hero = () => {
 				</h1>
 				<div className="mx-auto max-w-3xl">
 					<p
-						className="mb-8 text-xl text-gray-600"
+						className="mx-2 mb-8 text-xl text-gray-600"
 						data-aos="zoom-y-out"
 						data-aos-delay="150"
 					>

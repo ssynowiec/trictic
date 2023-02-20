@@ -28,10 +28,11 @@ export const MobileNav = ({ routes }: MobileNavProps) => {
 							alt="Trictic"
 							width="100"
 							height="100"
+							className="mx-2"
 						/>
 					</Link>
 					<button
-						className="relative h-10 w-10 text-gray-500 focus:outline-none md:hidden"
+						className="relative mx-2 h-10 w-10 text-gray-500 focus:outline-none md:hidden"
 						onClick={() => setIsOpen(!isOpen)}
 					>
 						<VisuallyHidden>Open main menu</VisuallyHidden>

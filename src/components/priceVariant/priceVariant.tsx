@@ -19,7 +19,11 @@ export const PriceVariant = ({
 	children,
 }: PriceVariantProps) => {
 	return (
-		<Card size="md:w-1/3" style={style} className="flex flex-col">
+		<Card
+			size="w-full m-0 my-5 md:m-3 md:w-1/3"
+			style={style}
+			className="flex flex-col"
+		>
 			<h3 className="text-center text-2xl font-medium">{name}</h3>
 			{children}
 			<p className="pt-3 text-center text-2xl font-bold">{price} zł</p>
