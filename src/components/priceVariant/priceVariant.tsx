@@ -20,7 +20,7 @@ export const PriceVariant = ({
 }: PriceVariantProps) => {
 	return (
 		<Card
-			size="w-full m-0 my-5 md:m-3 md:w-1/3"
+			size="w-full mx-0 my-5 md:m-3 md:w-1/3"
 			style={style}
 			className="flex flex-col"
 		>
