@@ -3,6 +3,7 @@ import { NextPageWithLayout } from './_app';
 import { Hero } from 'components/hero/hero';
 import { PriceList } from 'components/priceList/priceList';
 import { Functions } from 'components/functions/functions';
+import { Aboutus } from 'components/aboutus/aboutus';
 
 const Home: NextPageWithLayout = () => {
 	return (
@@ -10,6 +11,7 @@ const Home: NextPageWithLayout = () => {
 			<Hero />
 			<Functions />
 			<PriceList />
+			<Aboutus />
 		</>
 	);
 };

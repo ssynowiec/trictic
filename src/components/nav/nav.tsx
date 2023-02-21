@@ -7,7 +7,7 @@ const routes: RoutesType[] = [
 	// { url: '/', label: 'Strona główna' },
 	{ url: '#funkcje', label: 'Funkcje' },
 	{ url: '#cennik', label: 'Cennik' },
-	{ url: '#o-nas', label: 'O nas' },
+	{ url: '#zespol', label: 'Nasz zespół' },
 	{ url: '#kontakt', label: 'Kontakt' },
 ];
 export const Nav = () => {
