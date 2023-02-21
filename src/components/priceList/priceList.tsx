@@ -6,7 +6,7 @@ export const PriceList = () => {
 	return (
 		<section
 			id="cennik"
-			className="flex min-h-screen w-full flex-col justify-center"
+			className="flex min-h-screen w-full flex-col items-center justify-center pt-10 md:pt-12"
 		>
 			<Container>
 				<h2 className="text-center text-4xl font-bold">Cennik</h2>

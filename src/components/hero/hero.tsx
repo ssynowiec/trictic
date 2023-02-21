@@ -1,8 +1,6 @@
 import { Karla } from '@next/font/google';
 import clsx from 'clsx';
 import { Button } from 'components/button/button';
-import { Link } from 'components/link/link';
-import { Image } from 'components/image/image';
 import { HeroImg } from 'components/heroImg/heroImg';
 
 const karla = Karla({ weight: ['800'], subsets: ['latin'] });
