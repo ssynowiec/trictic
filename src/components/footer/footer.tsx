@@ -18,8 +18,9 @@ export const Footer = () => {
 							className="p-5"
 						/>
 						<p className="p-5">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum
-							odio, consequuntur, voluptatum doloremque, voluptatem.w
+							Innowacyjna firma z pasją do tworzenia rozwiązań, które zmieniają
+							świat. Naszą misją jest dostarczanie wysokiej jakości produktów i
+							usług, które pomagają ludziom i firmom osiągnąć sukces.
 						</p>
 						<ul className="flex p-5 pb-0">
 							<li className="p-2">

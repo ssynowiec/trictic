@@ -30,9 +30,8 @@ export const Hero = () => {
 						data-aos="zoom-y-out"
 						data-aos-delay="150"
 					>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum
-						odio, consequuntur, <Link href="/" label="doloremque" />,
-						voluptatem.
+						Nasz produkt online: kompleksowe narzędzia do skutecznego
+						zarządzania w sieci.
 					</p>
 					<div
 						className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center"
