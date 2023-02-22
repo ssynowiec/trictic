@@ -15,7 +15,7 @@ export const FunctionItem = ({
 }: FunctionItemProps) => {
 	return (
 		<Card
-			size="w-full mx-0 md:mx-4 md:w-1/5 border-0"
+			size="w-full mx-0 md:mx-4 md:w-1/5"
 			className="flex flex-col items-center justify-center px-2"
 		>
 			{status === 'planned' && (

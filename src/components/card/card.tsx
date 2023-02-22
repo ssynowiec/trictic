@@ -21,7 +21,7 @@ export const Card = ({
 	return (
 		<Tag
 			className={clsx(
-				'relative m-5 rounded border-2 px-5 py-4 font-medium text-black',
+				'relative m-5 rounded px-5 py-4 font-medium text-black',
 				size,
 			)}
 		>
