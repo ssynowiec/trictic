@@ -19,7 +19,7 @@ export const VariantOption = ({
 	return (
 		<div className="flex items-center pt-5">
 			<span className="pr-2">{containsIcons}</span>
-			<p className={clsx(contains ? 'text-black' : 'text-gray-400')}>{name}</p>
+			<p className={clsx(contains ? 'text-black' : 'text-gray-500')}>{name}</p>
 		</div>
 	);
 };
