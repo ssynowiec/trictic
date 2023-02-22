@@ -12,7 +12,7 @@ type DesktopNavProps = {
 };
 export const DesktopNav = ({ routes }: DesktopNavProps) => {
 	return (
-		<div className="fixed z-40 hidden w-full items-center justify-between shadow backdrop-blur-lg md:flex">
+		<div className="fixed z-40 hidden w-full items-center justify-between bg-white/50 shadow backdrop-blur-md md:flex">
 			<Container>
 				<div className="flex items-center justify-between">
 					<Link href="/">
@@ -34,7 +34,6 @@ export const DesktopNav = ({ routes }: DesktopNavProps) => {
 					</nav>
 					<div className="hidden md:block">
 						<Button>Button text</Button>
-						{/*<button>menu</button>*/}
 					</div>
 				</div>
 			</Container>
